@@ -5,33 +5,125 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>9117095D-7DFA-4804-A481-DA170DC0A60C</string>
+	<string>BED0D9CC-3CDE-44DB-AF3A-7146F8566DF9</string>
 	<key>IDESourceControlProjectName</key>
 	<string>jajanUserTracking</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>16190BAB55B4B77C5B49688B0904D13D0B4E72B6</key>
+		<string>https://github.com/kvnwinata/testapp.git</string>
 		<key>2DE9C8846D9375EAACFABA8963120E8E7719BAF5</key>
-		<string>github.com:openframeworks/openFrameworks.git</string>
+		<string>https://github.com/openframeworks/openFrameworks.git</string>
+		<key>2F750D68E75345E71C71DBA69B734ED42BF924D1</key>
+		<string>github.com:arturoc/ofxGStreamer.git</string>
+		<key>2FF29A599C1B99A3BF67771ACFD2920D4283BD26</key>
+		<string>github.com:arturoc/ofxNice.git</string>
+		<key>313442C702E505E76A72770690E1B04EAB122AA9</key>
+		<string>github.com:arturoc/ofxEchoCancel.git</string>
+		<key>62AD38A853790DF3EC11E6F04E12E51471859353</key>
+		<string>github.com:arturoc/ofxSnappy.git</string>
+		<key>76FA968CA334FB7BB92E03957D3EF6E86E0F8D32</key>
+		<string>github.com:arturoc/ofxDepthStreamCompression.git</string>
+		<key>89AEA15953FADA42468C343CB60A9B1BA364E9AB</key>
+		<string>github.com:kvnwinata/ofxGstRTP.git</string>
+		<key>D4A8235900F0DA7D1A8E5C34D695212FBCCAAA99</key>
+		<string>github.com:c-liu/ofxXMPP.git</string>
 		<key>D8811CE32924E36E8903BAF4011407E4BAF64556</key>
-		<string>github.com:gameoverhack/ofxOpenNI.git</string>
+		<string>github.com:kvnwinata/ofxOpenNI.git</string>
+		<key>EEFA9B2D92C1169AEA77D8C5709187FFE495AA41</key>
+		<string>github.com:arturoc/ofxXMPPFileTransfer.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>apps/jajan/jajanUserTracking/jajanUserTracking.xcodeproj</string>
+	<string>jajanUserTracking.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>16190BAB55B4B77C5B49688B0904D13D0B4E72B6</key>
+		<string>../..</string>
 		<key>2DE9C8846D9375EAACFABA8963120E8E7719BAF5</key>
 		<string>../../../../..</string>
+		<key>2F750D68E75345E71C71DBA69B734ED42BF924D1</key>
+		<string>../../../../../addons/ofxGStreamer</string>
+		<key>2FF29A599C1B99A3BF67771ACFD2920D4283BD26</key>
+		<string>../../../../../addons/ofxNice</string>
+		<key>313442C702E505E76A72770690E1B04EAB122AA9</key>
+		<string>../../../../../addons/ofxEchoCancel</string>
+		<key>62AD38A853790DF3EC11E6F04E12E51471859353</key>
+		<string>../../../../../addons/ofxSnappy</string>
+		<key>76FA968CA334FB7BB92E03957D3EF6E86E0F8D32</key>
+		<string>../../../../../addons/ofxDepthStreamCompression</string>
+		<key>89AEA15953FADA42468C343CB60A9B1BA364E9AB</key>
+		<string>../../../../../addons/ofxGstRTP</string>
+		<key>D4A8235900F0DA7D1A8E5C34D695212FBCCAAA99</key>
+		<string>../../../../../addons/ofxXMPP</string>
 		<key>D8811CE32924E36E8903BAF4011407E4BAF64556</key>
-		<string>../../../../..addons/ofxOpenNI</string>
+		<string>../../../../../addons/ofxOpenNI</string>
+		<key>EEFA9B2D92C1169AEA77D8C5709187FFE495AA41</key>
+		<string>../../../../../addons/ofxXMPPFileTransfer</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:openframeworks/openFrameworks.git</string>
+	<string>https://github.com/kvnwinata/testapp.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>2DE9C8846D9375EAACFABA8963120E8E7719BAF5</string>
+	<string>16190BAB55B4B77C5B49688B0904D13D0B4E72B6</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2DE9C8846D9375EAACFABA8963120E8E7719BAF5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>..</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>16190BAB55B4B77C5B49688B0904D13D0B4E72B6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>jajanUserTracking</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>76FA968CA334FB7BB92E03957D3EF6E86E0F8D32</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxDepthStreamCompression</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>313442C702E505E76A72770690E1B04EAB122AA9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxEchoCancel</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2F750D68E75345E71C71DBA69B734ED42BF924D1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxGStreamer</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>89AEA15953FADA42468C343CB60A9B1BA364E9AB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxGstRTP</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2FF29A599C1B99A3BF67771ACFD2920D4283BD26</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxNice</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
@@ -44,9 +136,25 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>2DE9C8846D9375EAACFABA8963120E8E7719BAF5</string>
+			<string>62AD38A853790DF3EC11E6F04E12E51471859353</string>
 			<key>IDESourceControlWCCName</key>
-			<string>openFrameworks</string>
+			<string>ofxSnappy</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D4A8235900F0DA7D1A8E5C34D695212FBCCAAA99</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxXMPP</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EEFA9B2D92C1169AEA77D8C5709187FFE495AA41</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxXMPPFileTransfer</string>
 		</dict>
 	</array>
 </dict>
