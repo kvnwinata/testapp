@@ -5,42 +5,46 @@ void ofApp::setup(){
     
     ofSetLogLevel(OF_LOG_VERBOSE);
     
-    openNI.setup();
-    openNI.setMirror(true);
-    openNI.addImageGenerator();
-    openNI.addDepthGenerator();
-    openNI.addUserGenerator();
-    openNI.setMaxNumUsers(4);
-    openNI.start();
+    openNIDevice.setup();
+    openNIDevice.setMirror(true);
+    openNIDevice.setRegister(true);
     
-    openNI.setDepthColoring(COLORING_GREY);
+    // frames
+    openNIDevice.addImageGenerator();
+    openNIDevice.addDepthGenerator();
+    openNIDevice.setDepthColoring(COLORING_GREY);
+    localColorFrame = openNIDevice.getimageTextureReference();
+    localDepthFrame = openNIDevice.getDepthTextureReference();
+    remoteColorFrame.allocate(640, 480, GL_RGB8);
+    remoteDepthFrame.allocate(640, 480, GL_R8);
+
+    // users
+    openNIDevice.addUserGenerator();
+    openNIDevice.setMaxNumUsers(4);
+    
+    // misc
+    
+    openNIDevice.start();
+    
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-    openNI.update();
+
+    openNIDevice.update();
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    ofEnableAlphaBlending();
-    openNI.drawDebug(0, 0, ofGetWidth(), ofGetHeight());
     
-    // get number of current users
-    int numUsers = openNI.getNumTrackedUsers();
+    int w = 640;
+    int h = 480;
     
-    //cout << "num:" << numUsers << endl;
+    localColorFrame.draw(0, 0, w, h);
+    localDepthFrame.draw(w, 0, w, h);
+    remoteColorFrame.draw(0, h, w, h);
+    remoteDepthFrame.draw(w, h, w, h);
     
-    for (int i = 0; i < numUsers; i++){
-        
-        // get a reference to this user
-        ofxOpenNIUser & user = openNI.getTrackedUser(i);
-            
-    }
-    
-    ofSetColor(255,255,255, ((int) ofGetElapsedTimeMillis()/5) % 255);
-    ofRect(0, 0, ofGetWidth(), ofGetHeight());
-    ofSetColor(255,255,255,255);
 }
 
 //--------------------------------------------------------------
@@ -90,5 +94,5 @@ void ofApp::dragEvent(ofDragInfo dragInfo){
 
 void ofApp::exit()
 {
-    openNI.stop();
+    openNIDevice.stop();
 }

@@ -11,6 +11,8 @@ public:
     void update();
     void draw();
     
+    void exit() override;
+    
     void keyPressed(int key);
     void keyReleased(int key);
     void mouseMoved(int x, int y );
@@ -23,6 +25,15 @@ public:
     
 private:
     
-    ofxOpenNI   openNI;
+    ofxOpenNI   openNIDevice;
+    
+    // local textures
+    ofTexture localColorFrame;
+    ofTexture localDepthFrame;
+    
+    // remote textures
+    ofTexture remoteColorFrame;
+    ofTexture remoteDepthFrame;
+
     
 };
